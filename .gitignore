@@ -1,14 +1,88 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
+# Встроенные файлы приложений
+* .apk
+* .aar
+* .ap_
+* .aab
+
+# Файлы для АРТ / Далвик В.М.
+* .dex
+
+# Файлы классов Java
+* .class
+
+# Сгенерированные файлы
+корзина /
+генерал /
+Out /
+#   Раскомментируйте следующую строку, если вам нужно, и у вас нет файлов типа сборки выпуска в вашем приложении
+# релиз /
+
+# Gradle файлы
+.gradle /
+построить /
+
+# Локальный файл конфигурации (путь SDK и т. Д.)
+local.properties
+
+# Папка Proguard, сгенерированная Eclipse
+Proguard /
+
+# Файлы журнала
+* .log
+
+# Android Studio Navigation редактор временных файлов
+.navigation /
+
+# Android Studio захватывает папку
+захватывает /
+
+# IntelliJ
+* .iml
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / gradle.xml
+.idea / assetWizardSettings.xml
+.idea / словари
+.idea / библиотеки
+# Android Studio 3 в файле .gitignore.
+.idea / кэши
+.idea / modules.xml
+# Прокомментируйте следующую строку, если вам важно сохранить положение элементов в редакторе навигации
+.idea / navEditor.xml
+
+# Файлы хранилища ключей
+# Раскомментируйте следующие строки, если вы не хотите проверять файлы хранилища ключей в.
+# * .jks
+# * .keystore
+
+# Внешняя папка встроенной сборки, созданная в Android Studio 2.2 и более поздних версиях
 .externalNativeBuild
-.cxx
+.cxx /
+
+# Сервисы Google (например, API или Firebase)
+# google-services.json
+
+# Freeline
+freeline.py
+Фрилайн /
+freeline_project_description.json
+
+# fastlane
+Fastlane / report.xml
+fastlane / Preview.html
+Фастлэйн / скриншоты
+fastlane / test_output
+fastlane / readme.md
+
+# Контроль версий
+vcs.xml
+
+# линт
+линт / промежуточные продукты /
+ворс / сгенерированный /
+пух / выходы /
+линт / тмп /
+# lint / reports /
+
+# Профилирование Android
+* .hprof
